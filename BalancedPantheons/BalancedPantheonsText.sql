@@ -67,12 +67,12 @@ AND Tag = 'LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION');
 -- God of the Open Sky
 ---------------------------------------------------------
 UPDATE LocalizedText
-SET Text = '+2 [ICON_Culture] Culture and +1 [ICON_Faith] Faith from Pastures.'
+SET Text = '+2 [ICON_Culture] Culture from Pastures.'
 WHERE (Language = 'en_US'
 AND Tag = 'LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION');
 
 UPDATE LocalizedText
-SET Text = '牧场的 [ICON_Culture] 文化值+2，[ICON_Faith] 信仰值+1。'
+SET Text = '牧场的 [ICON_Culture] 文化值+2。'
 WHERE (Language = 'zh_Hans_CN'
 AND Tag = 'LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION');
 
@@ -119,12 +119,12 @@ AND Tag = 'LOC_BELIEF_GOD_OF_THE_SEA_DESCRIPTION');
 -- Goddess of the Hunt
 ---------------------------------------------------------
 UPDATE LocalizedText
-SET Text = '+2 [ICON_Food] Food and +1 [ICON_Faith] from Camps.'
+SET Text = '+2 [ICON_Food] Food from Camps.'
 WHERE (Language = 'en_US'
 AND Tag = 'LOC_BELIEF_GODDESS_OF_THE_HUNT_DESCRIPTION');
 
 UPDATE LocalizedText
-SET Text = '营地的 [ICON_Food] 食物+2， [ICON_Faith] 信仰值+1。'
+SET Text = '营地的 [ICON_Food] 食物+2。'
 WHERE (Language = 'zh_Hans_CN'
 AND Tag = 'LOC_BELIEF_GODDESS_OF_THE_HUNT_DESCRIPTION');
 
@@ -197,12 +197,12 @@ AND Tag = 'LOC_BELIEF_ORAL_TRADITION_DESCRIPTION');
 -- Gods of the Forge
 ---------------------------------------------------------
 UPDATE LocalizedText
-SET Text = '+15% [ICON_Production] Production toward Ancient and Classical military units.'
+SET Text = '+25% [ICON_Production] Production toward Ancient and Classical military units.'
 WHERE (Language = 'en_US'
 AND Tag = 'LOC_BELIEF_GOD_OF_THE_FORGE_DESCRIPTION');
 
 UPDATE LocalizedText
-SET Text = '为远古和古典军事单位+15% [ICON_Production] 生产力。'
+SET Text = '为远古和古典军事单位+25% [ICON_Production] 生产力。'
 WHERE (Language = 'zh_Hans_CN'
 AND Tag = 'LOC_BELIEF_GOD_OF_THE_FORGE_DESCRIPTION');
 
@@ -249,7 +249,7 @@ AND Tag = 'LOC_BELIEF_RELIGIOUS_SETTLEMENTS_DESCRIPTION');
 -- Goddess of the Harvest
 ---------------------------------------------------------
 UPDATE LocalizedText
-SET Text = 'Harvesting a resource or removing a feature receives [ICON_Faith] Faith equal to 150% of the other yield\'s quantity.'
+SET Text = 'Harvesting a resource or removing a feature receives [ICON_Faith] Faith equal to 150% of the other yield‘s quantity.'
 WHERE (Language = 'en_US'
 AND Tag = 'LOC_BELIEF_GODDESS_OF_THE_HARVEST_DESCRIPTION');
 
@@ -262,12 +262,12 @@ AND Tag = 'LOC_BELIEF_GODDESS_OF_THE_HARVEST_DESCRIPTION');
 -- Stone Circles
 ---------------------------------------------------------
 UPDATE LocalizedText
-SET Text = '+1 [ICON_Faith] Faith, +1 [ICON_Culture] and +1 [ICON_Science] from Quarries.'
+SET Text = '+1 [ICON_Faith] Faith and +1 [ICON_Culture] Culture from Quarries.'
 WHERE (Language = 'en_US'
 AND Tag = 'LOC_BELIEF_STONE_CIRCLES_DESCRIPTION');
 
 UPDATE LocalizedText
-SET Text = '采石场的 [ICON_Faith] 信仰值+1，[ICON_Culture] 文化值+1，[ICON_Science] 科技值+1。'
+SET Text = '采石场的 [ICON_Faith] 信仰值+1，[ICON_Culture] 文化值+1。'
 WHERE (Language = 'zh_Hans_CN'
 AND Tag = 'LOC_BELIEF_STONE_CIRCLES_DESCRIPTION');
 
@@ -283,3 +283,4 @@ UPDATE LocalizedText
 SET Text = '在圣地区域的8个单元格以内，每击杀一个敌人则可获得等同其攻击力的 [ICON_Faith] 信仰值加成。'
 WHERE (Language = 'zh_Hans_CN'
 AND Tag = 'LOC_BELIEF_GOD_OF_WAR_DESCRIPTION');
+

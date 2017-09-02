@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="0cfcc5a1-f86c-4636-89bb-bd518894a3a0" version="1">
+  	<Properties>
+  		<Name>Balanced Pantheons</Name>
+  		<Description>Changed some pantheons to make them more balanced.</Description>
+  		<Teaser>Improved, reworked and nerfed the ability of pantheons to balance the strength between them.</Teaser>
+  		<Authors>KonatsuSV</Authors>
+  		<SpecialThanks>Juri Kimura</SpecialThanks>
+  	</Properties>
+  	<Components>
+  		<UpdateDatabase id="BalancedPantheons">
+  			<Properties>
+            	<LoadOrder>100</LoadOrder>
+        	</Properties> 
+  			<Items>
+  				<File>BalancedPantheons.sql</File>
+  			</Items>
+  		</UpdateDatabase>
+  		<LocalizedText id="BalancedPantheons_text">
+  			<Properties>
+                <LoadOrder>100</LoadOrder>
+            </Properties>                        
+            <Items>
+  				<File>BalancedPantheonsText.sql</File>
+  			</Items>
+  		</LocalizedText>
+  	</Components>
+  	<Files>
+  		<File>BalancedPantheons.sql</File>
+  		<File>BalancedPantheonsText.sql</File>
+  	</Files>
+</Mod>
+
