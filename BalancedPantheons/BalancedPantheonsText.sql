@@ -28,12 +28,12 @@ AND Tag = '');
 -- Dance of the Aurora
 ---------------------------------------------------------
 UPDATE LocalizedText
-SET Text = 'Holy Site districts get +1 [ICON_Faith] Faith and Theater Sqaure districts get +1 [ICON_Culture] Culture from adjacent Tundra tiles.'
+SET Text = 'Holy Site districts get +1 [ICON_Faith] Faith and Theater Sqaure districts get +1 [ICON_Culture] Culture from adjacent Tundra Plain tiles.'
 WHERE Language = 'en_US'
 AND Tag = 'LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION';
 
 UPDATE LocalizedText
-SET Text = '圣地区域从相邻冻土单元格+1 [ICON_Faith] 信仰值 。剧院广场区域从相邻冻土单元格+1 [ICON_Culture] 文化值。'
+SET Text = '圣地区域从相邻冻土单元格+1 [ICON_Faith] 信仰值 。剧院广场区域从相邻冻土平原单元格+1 [ICON_Culture] 文化值。'
 WHERE (Language = 'zh_Hans_CN'
 AND Tag = 'LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION');
 
@@ -41,12 +41,12 @@ AND Tag = 'LOC_BELIEF_DANCE_OF_THE_AURORA_DESCRIPTION');
 -- Sacred Path
 ---------------------------------------------------------
 UPDATE LocalizedText
-SET Text = 'Holy Site districts get +1 [ICON_Faith] Faith and Campus districts get +1 [ICON_Science] Science from adjacent Rainforest tiles.'
+SET Text = 'Holy Site districts get +1 [ICON_Faith] Faith and Commerical Hub districts get +1 [ICON_Gold] Gold from adjacent Rainforest tiles.'
 WHERE (Language = 'en_US'
 AND Tag = 'LOC_BELIEF_SACRED_PATH_DESCRIPTION');
 
 UPDATE LocalizedText
-SET Text = '圣地区域从相邻雨林单元格+1 [ICON_Faith] 信仰值。学院区域从相邻雨林单元格+1 [ICON_Science] 科技值。'
+SET Text = '圣地区域从相邻雨林单元格+1 [ICON_Faith] 信仰值。商业区域从相邻雨林单元格+1 [ICON_Science] 金币。'
 WHERE (Language = 'zh_Hans_CN'
 AND Tag = 'LOC_BELIEF_SACRED_PATH_DESCRIPTION');
 
@@ -54,12 +54,12 @@ AND Tag = 'LOC_BELIEF_SACRED_PATH_DESCRIPTION');
 -- Lady of the Reeds
 ---------------------------------------------------------
 UPDATE LocalizedText
-SET Text = '+2 [ICON_Production] Production and +1 [ICON_Faith] Faith from Marsh, Oasis, and Floodplains.'
+SET Text = '+1 [ICON_Production] Production and +1 [ICON_Faith] Faith from Marsh, Oasis, and Floodplains.'
 WHERE (Language = 'en_US'
 AND Tag = 'LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION');
 
 UPDATE LocalizedText
-SET Text = '沼泽、 绿洲、泛滥平原的 [ICON_Production] 生产力+2， [ICON_Faith] 信仰值+1。'
+SET Text = '沼泽、 绿洲、泛滥平原的 [ICON_Production] 生产力+1， [ICON_Faith] 信仰值+1。'
 WHERE (Language = 'zh_Hans_CN'
 AND Tag = 'LOC_BELIEF_LADY_OF_THE_REEDS_AND_MARSHES_DESCRIPTION');
 
@@ -80,12 +80,12 @@ AND Tag = 'LOC_BELIEF_GOD_OF_THE_OPEN_SKY_DESCRIPTION');
 -- Desert Folklore
 ---------------------------------------------------------
 UPDATE LocalizedText
-SET Text = 'Holy Site districts get +1 [ICON_Faith] Faith and Industrial Zone districts get +1 [ICON_Production] Production from adjacent Desert tiles.'
+SET Text = 'Holy Site districts get +1 [ICON_Faith] Faith and Industrial Zone districts get +1 [ICON_Production] Production from adjacent Desert Plain tiles.'
 WHERE (Language = 'en_US'
 AND Tag = 'LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION');
 
 UPDATE LocalizedText
-SET Text = '圣地区域从相邻沙漠单元格+1 [ICON_Faith] 信仰值。工业区域从相邻沙漠单元格+1 [ICON_Production] 产能。'
+SET Text = '圣地区域从相邻沙漠单元格+1 [ICON_Faith] 信仰值。工业区域从相邻沙漠平原单元格+1 [ICON_Production] 产能。'
 WHERE (Language = 'zh_Hans_CN'
 AND Tag = 'LOC_BELIEF_DESERT_FOLKLORE_DESCRIPTION');
 
@@ -284,3 +284,15 @@ SET Text = '在圣地区域的8个单元格以内，每击杀一个敌人则可�
 WHERE (Language = 'zh_Hans_CN'
 AND Tag = 'LOC_BELIEF_GOD_OF_WAR_DESCRIPTION');
 
+---------------------------------------------------------
+-- Monument to the Gods
+---------------------------------------------------------
+UPDATE LocalizedText
+SET Text = '+20% [ICON_Production] Production towards Ancient and Classical era wonders.'
+WHERE (Language = 'en_US'
+AND Tag = 'LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION');
+
+UPDATE LocalizedText
+SET Text = '远古和古典奇观生产+15% [ICON_Production] 生产力。'
+WHERE (Language = 'zh_Hans_CN'
+AND Tag = 'LOC_BELIEF_MONUMENT_TO_THE_GODS_DESCRIPTION');
